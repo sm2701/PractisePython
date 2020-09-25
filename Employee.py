@@ -5,9 +5,10 @@ class Employee:
        self.age=age
        self.deptid=deptid
        
-   def printEmp():
-      print("Employee id:",self.eid,"name:",self.name,"age:",self.age,"dept id:",self.deptid)
+   def printEmp(self):
+       print("Employee id:",self.eid,"name:",self.name,"age:",self.age,"dept id:",self.deptid)
       
-def main():
-   emp = Employee(242,"ram",43,4324)
+def main(self):
+    emp = Employee(242,"ram",43,4324)
+    emp.printEmp()  
    
